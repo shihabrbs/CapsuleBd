@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/imhome"
+        android:icon="@drawable/ic_homeicon"
+        android:title="Home"/>
+
+    <item android:id="@+id/mitim"
+        android:icon="@drawable/ic_categoryicon"
+        android:title="Category"/>
+
+    <item android:id="@+id/none"
+        android:title=""/>
+
+    <item android:id="@+id/miHomsde"
+        android:icon="@drawable/ic_gift_solid"
+        android:title="Offer"/>
+
+    <item android:id="@+id/miHowefme"
+        android:icon="@drawable/ic_usericon"
+        android:title="Account"/>
+
+</menu>

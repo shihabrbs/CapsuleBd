@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rightbrain.officeproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.rightbrain.officeproject.ui.ProductDetails"></activity>
+        <activity android:name="com.rightbrain.officeproject.ui.MenuDetailsActivity"></activity>
+        <activity android:name="com.rightbrain.officeproject.ui.MultiLayout_SplashScreen" />
+        <activity android:name="com.rightbrain.officeproject.ui.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.rightbrain.officeproject.ui.GridListActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.SetupActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.TrackOrderActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.FullImageActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.MyProfileActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.BottomMenuActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.InvoiceActivity" />
+        <activity
+            android:name="com.rightbrain.officeproject.ui.PaymentActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.rightbrain.officeproject.ui.OrderDetailsActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.UserActivity" />
+        <activity
+            android:name="com.rightbrain.officeproject.ui.SearchActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.rightbrain.officeproject.ui.OTPWebActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.SignUpActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.LoginActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.VerifyOTPActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.MultiRecyclerViewActivity" />
+        <activity
+            android:name="com.rightbrain.officeproject.ui.DrawerMainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.rightbrain.officeproject.ui.AllProductActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.rightbrain.officeproject.ui.ProductsActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.rightbrain.officeproject.ui.AllBrandActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.rightbrain.officeproject.ui.AddressActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.TrackOrdersActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.OrdersActivity" />
+        <activity
+            android:name="com.rightbrain.officeproject.ui.OfferActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.rightbrain.officeproject.ui.CartActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.ProductDetailsActivity" />
+        <activity android:name="com.rightbrain.officeproject.ui.CategoryProductsActivity" />
+        <activity
+            android:name="com.rightbrain.officeproject.ui.AllCategoryActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.rightbrain.officeproject.ui.MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

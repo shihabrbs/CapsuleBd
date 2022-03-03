@@ -1,0 +1,42 @@
+[
+  {
+    "item": [
+      {
+        "id": 179,
+        "p_name": "Lux soap charming magnolia value pack",
+        "p_price": "150",
+        "productId": "24866",
+        "quantity": "2",
+        "size": "M",
+        "url": "http://www.terminalbd.com/cache/images/5/8/4/6/b/5846b1c565ffd248f323d1fd9597b2ce313b4e27.jpeg"
+      },
+      {
+        "id": 186,
+        "p_name": "Teer semolina suji",
+        "p_price": "30",
+        "productId": "23857",
+        "quantity": "1",
+        "size": "M",
+        "url": "http://www.terminalbd.com/uploads/domain/4/ecommerce/product/Teer semolina suji.jpg"
+      }
+    ],
+    "paymentinfo": [
+      {
+        "accountno": "01521414587",
+        "deliverycharge": "50",
+        "paymentmobile": "01761632579",
+        "preferent": "10:00",
+        "subtotal": "330",
+        "total": "380",
+        "trxid": "s34fh42gV31"
+      }
+    ],
+    "userinfo": [
+      {
+        "address": "Dhanmondi",
+        "name": "shihab",
+        "phone": "01761632579"
+      }
+    ]
+  }
+]

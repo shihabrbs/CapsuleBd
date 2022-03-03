@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:theme="@style/AppThemeBottomNavMenu"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.BottomMenuActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="@color/material_black"
+            android:textSize="40dp"
+            android:text="@string/large_text"
+            android:layout_height="wrap_content"/>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:layout_width="match_parent"
+        android:id="@+id/bottomAppBar"
+        android:backgroundTint="@color/blue"
+        android:layout_gravity="bottom"
+        app:contentInsetEnd="0dp"
+        app:contentInsetStart="0dp"
+        app:elevation="0dp"
+        app:hideOnScroll="false"
+        app:fabCradleMargin="5dp"
+        app:fabCradleRoundedCornerRadius="25dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_marginEnd="16dp"
+            android:id="@+id/bottomnavigationviewmenu"
+            android:background="@android:color/transparent"
+            android:layout_height="match_parent"
+            app:menu="@menu/bottom_nav_menu"/>
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+   <!-- app:hideOnScroll="true"-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_add"
+        android:backgroundTint="@color/blue"
+        app:layout_anchor="@id/bottomAppBar"
+        android:layout_height="wrap_content"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

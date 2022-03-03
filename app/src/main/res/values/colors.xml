@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#2e2e2e</color>
+    <color name="searchBarColor">#F4F5F7</color>
+    <color name="darkgray">#9E9797</color>
+    <color name="gray">#CACACA</color>
+    <color name="orenge">#FFC107</color>
+    <color name="blue">#03A9F4</color>
+    <color name="dark_blue">#5c75fe</color>
+    <color name="white_blue">#e3e8ff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="soft_blue">#A303A9F4</color>
+    <color name="soft_orenge">#FF9800</color>
+    <color name="soft_orenge_transparent">#C3FF9800</color>
+    <color name="soft_yellow">#FFD249</color>
+    <color name="material_black">#2e2e2e</color>
+    <color name="soft_red">#ADFF7065</color>
+    <color name="white_red">#FF7E74</color>
+    <color name="soft_pink">#EF0051</color>
+    <color name="material_black_light">#4C4C4C</color>
+</resources>

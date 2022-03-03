@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "919298269244",
+    "project_id": "officproject",
+    "storage_bucket": "officproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919298269244:android:e8667a18a4849c360aa339",
+        "android_client_info": {
+          "package_name": "com.rightbrain.officeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919298269244-24f3nivsj8v48uvbljsi03tlk7i3g24o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmMoH89OBoI-23tVAUc_0UFWXbpBpN-iw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919298269244-24f3nivsj8v48uvbljsi03tlk7i3g24o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

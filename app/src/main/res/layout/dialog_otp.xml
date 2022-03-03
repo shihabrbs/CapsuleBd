@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/quantum_white_100"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/closebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Enter the code we sent to your phone"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="13dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <com.chaos.view.PinView
+        android:id="@+id/edtOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:textColor="@color/material_black"
+        android:textSize="14dp"
+        app:hideLineWhenFilled="true"
+        app:itemCount="4"
+        app:itemHeight="40dp"
+        app:itemRadius="5dp"
+        app:itemWidth="35dp"
+        app:lineColor="@color/orenge" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:cardBackgroundColor="@color/gray"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="0dp">
+
+
+        <Button
+            android:id="@+id/verifyBtn"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_gray"
+            android:text="Verify"
+            android:textAllCaps="false"
+            android:textSize="14dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+</LinearLayout>
